@@ -31,7 +31,7 @@ public class VehiclesDetailsStepDefs {
         vehicleRegistrationNumbers = VehicleUtils.getVehicleRegistrationNumbers(FileUtils.readFile(fileName));
     }
 
-    @When("^I run it thorugh the cartaxcheck website$")
+    @When("^I run it through the cartaxcheck website$")
     public void getCarDetails() {
         homePage = new HomePage();
         vehicleIdentityPage = new VehicleIdentityPage();
